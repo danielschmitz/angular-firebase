@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-material-with-dark-mode": {
+    "angular-firebase": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-material-with-dark-mode",
+            "outputPath": "dist/angular-firebase",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-material-with-dark-mode:build:production"
+              "buildTarget": "angular-firebase:build:production"
             },
             "development": {
-              "buildTarget": "angular-material-with-dark-mode:build:development"
+              "buildTarget": "angular-firebase:build:development"
             }
           },
           "defaultConfiguration": "development"

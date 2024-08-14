@@ -1,6 +1,6 @@
 # AngularMaterialWithDarkMode
 
-Demo: https://danielschmitz.github.io/angular-material-with-dark-mode/#
+Demo: https://danielschmitz.github.io/angular-firebase/#
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
 
